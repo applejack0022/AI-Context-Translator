@@ -1,0 +1,155 @@
+#ai-ctx-translator-float-btn {
+  position: absolute;
+  z-index: 2147483646;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+#ai-ctx-translator-float-btn:hover {
+  background: #4338ca;
+}
+
+#ai-ctx-translator-popup {
+  position: absolute;
+  z-index: 2147483647;
+  min-width: 220px;
+  max-width: 420px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  color: #111827;
+  overflow: hidden;
+}
+
+.ai-ctx-popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 600;
+  font-size: 13px;
+  color: #374151;
+}
+
+.ai-ctx-popup-subtitle {
+  margin-left: 8px;
+  font-size: 11px;
+  color: #6b7280;
+  font-weight: normal;
+}
+
+.ai-ctx-popup-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #6b7280;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 0 2px 0;
+}
+
+.ai-ctx-popup-close:hover {
+  color: #111827;
+}
+
+.ai-ctx-popup-body {
+  padding: 12px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.ai-ctx-popup-loading {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.ai-ctx-reddit-float-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  z-index: 2147483645;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.ai-ctx-reddit-float-btn:hover {
+  background: #4338ca;
+}
+
+.ai-ctx-translation {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: #f5f7ff;
+  border-left: 3px solid #4f46e5;
+  border-radius: 4px;
+  color: #1f2937;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.ai-ctx-generic-float-btn,
+.ai-ctx-5ch-float-btn,
+.ai-ctx-bilibili-float-btn,
+.ai-ctx-xiaohongshu-float-btn {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  z-index: 2147483645;
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 50%;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.ai-ctx-generic-float-btn:hover,
+.ai-ctx-5ch-float-btn:hover,
+.ai-ctx-bilibili-float-btn:hover {
+  background: #4338ca;
+}
