@@ -126,7 +126,8 @@
 .ai-ctx-generic-float-btn,
 .ai-ctx-5ch-float-btn,
 .ai-ctx-bilibili-float-btn,
-.ai-ctx-xiaohongshu-float-btn {
+.ai-ctx-xiaohongshu-float-btn,
+.ai-ctx-github-float-btn {
   position: absolute;
   bottom: 6px;
   right: 6px;
@@ -150,6 +151,7 @@
 
 .ai-ctx-generic-float-btn:hover,
 .ai-ctx-5ch-float-btn:hover,
-.ai-ctx-bilibili-float-btn:hover {
+.ai-ctx-bilibili-float-btn:hover,
+.ai-ctx-github-float-btn:hover {
   background: #4338ca;
 }

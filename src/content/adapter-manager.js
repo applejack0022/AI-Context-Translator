@@ -3,12 +3,14 @@ import { RedditAdapter } from './adapters/reddit.js';
 import { Ch5Adapter } from './adapters/_5ch.js';
 import { BilibiliAdapter } from './adapters/bilibili.js';
 import { XiaohongshuAdapter } from './adapters/xiaohongshu.js';
+import { GitHubAdapter } from './adapters/github.js';
 
 const ADAPTERS = [
   new RedditAdapter(),
   new Ch5Adapter(),
   new BilibiliAdapter(),
   new XiaohongshuAdapter(),
+  new GitHubAdapter(),
 ];
 
 /**
