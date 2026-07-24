@@ -46,6 +46,12 @@ function initAdapterFloatButtons() {
 }
 
 function handleMouseUp(e) {
+  const target = e.target;
+  const element = target instanceof Element ? target : target.parentElement;
+  if (element && (element.closest(`#${FLOAT_BTN_ID}`) || element.closest(`#${POPUP_ID}`))) {
+    return;
+  }
+
   const selection = window.getSelection();
   const text = selection?.toString()?.trim();
 
@@ -76,6 +82,9 @@ function showFloatButton(rect, text) {
   btn.id = FLOAT_BTN_ID;
   btn.textContent = '译';
   btn.title = '翻译选中文字';
+  btn.addEventListener('mousedown', (e) => {
+    e.stopPropagation();
+  });
   btn.addEventListener('click', (e) => {
     e.stopPropagation();
     doTranslate(text);
