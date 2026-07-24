@@ -1,6 +1,6 @@
 const TARGET_LANGUAGES = {
   'zh-CN': '中文',
-  'zh-TW': '繁体中文',
+  'zh-TW': '繁體中文',
   'en': 'English',
   'ja': '日本語',
   'ko': '한국어',
